@@ -479,6 +479,10 @@
     .modal-block .form-page {
         width: 400px;
     }
+    .fancybox-slide {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 /* Small Devices, Tablets */
