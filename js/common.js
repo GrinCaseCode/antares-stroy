@@ -136,7 +136,7 @@ $(".btn-main_filter").click(function(e) {
 					dots: true,
 					variableWidth: false,
 					slidesToShow: 3,
-					slidesToScroll: 1,
+					slidesToScroll: 3,
 				}
 			}
 		]

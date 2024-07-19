@@ -489,7 +489,7 @@
         border-radius: 6px;
     }
     .item-news {
-        height: 175px;
+        height: 225px;
         padding: 11px;
         padding-bottom: 18px;
         border-radius: 10px;
@@ -728,7 +728,7 @@
         border-radius: 10px;
     }
     .item-catalog__image {
-        height: 175px;
+        height: 205px;
         border-radius: 10px;
     }
     .item-catalog__content {
@@ -767,6 +767,9 @@
     }
     .modal-block .checkbox {
         margin-top: 20px;
+    }
+    .article-content img {
+        border-radius: 10px;
     }
 }
 
