@@ -91,6 +91,18 @@ $(document).mouseup(function (e) {
 	}
   });
 
+  $(".item-sidebar__head").click(function() {
+	$(this).parent().siblings().removeClass("active");
+	$(this).parent().siblings().find(".item-sidebar__content").slideUp(200);
+	$(this).parent().toggleClass("active");
+	$(this).siblings(".item-sidebar__content").slideToggle(200);
+});
+$(".btn-main_filter").click(function(e) {
+	e.preventDefault();
+	$(this).toggleClass("active");
+	$(".sidebar-catalog").slideToggle(200);
+});
+
 	//слайдер
 
 	$('.slider-billbord').slick({
@@ -104,6 +116,30 @@ $(document).mouseup(function (e) {
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	});
+
+	$('.slider-gallery').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		variableWidth: true,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					arrows: false,
+					dots: true,
+					variableWidth: false,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				}
+			}
+		]
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");

@@ -483,6 +483,291 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .item-news__date {
+        padding: 10px;
+        font-size: 13px;
+        border-radius: 6px;
+    }
+    .item-news {
+        height: 175px;
+        padding: 11px;
+        padding-bottom: 18px;
+        border-radius: 10px;
+    }
+    .item-news__image,
+    .item-news__image img,
+    .item-news__image::after {
+        border-radius: 10px;
+    }
+    .item-news__title {
+        font-size: 16px;
+    }
+    .pager {
+        height: 36px;
+        margin-top: 30px;
+    }
+    .prev.page-numbers, .next.page-numbers {
+        height: 36px;
+        width: 36px;
+        font-size: 14px;
+    }
+    .page-numbers {
+        margin: 0 20px;
+        font-size: 16px;
+    }
+    .page-news {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .breadcrumbs {
+        padding: 15px 0;
+        font-size: 14px;
+        display: block;
+    }
+    .breadcrumbs li {
+        display: inline;
+    }
+    .breadcrumbs li::after {
+        margin: 0 8px;
+    }
+    .page-article h1 {
+        font-size: 24px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+    .article-content p {
+        margin: 10px 0;
+    }
+    .article-content h2 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .article-content ul li {
+        padding-left: 20px;
+    }
+    .article-content ul li::before {
+        left: 3px;
+    }
+    .page-article .item-news {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .page-article {
+        padding-bottom: 45px;
+    }
+    .about-main p {
+        max-width: 100%;
+    }
+    .about-main {
+        font-size: 16px;
+    }
+    .title-middle {
+        font-size: 18px;
+    }
+    .about-main .title-middle {
+        margin-top: 0;
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+    .page-about {
+        padding-top: 25px;
+    }
+    .image-page img {
+        margin: 15px 0;
+        border-radius: 10px;
+    }
+    .about-directions {
+        margin-top: 15px;
+    }
+    .about-directions .title-section {
+        margin-bottom: 15px;
+    }
+    .about-directions .row_page {
+        padding-top: 15px;
+    }
+    .item-about {
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .item-about__title {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .consultation_about .title-middle {
+        margin-bottom: 20px;
+    }
+    .slider-gallery__item {
+        height: 110px;
+        width: 110px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .slider-gallery .slick-slide {
+        padding: 0 5px;
+        margin-right: 0;
+    }
+    .slider-gallery .slick-list {
+        margin: 0 -5px;
+    }
+    .slider-gallery__item img {
+        border-radius: 10px;
+    }
+    .slick-arrow {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
+    .slider-gallery {
+        padding-bottom: 35px;
+    }
+    .gallery {
+        padding: 40px 0;
+    }
+    .page-delivery {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .item-delivery {
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .item-delivery__title {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .item-delivery p {
+        max-width: 100%;
+    }
+    .item-delivery__subtitle {
+        font-size: 16px;
+    }
+    .col-lg-8 .item-delivery__subtitle {
+        margin: 15px 0;
+    }
+    .item-delivery ul li {
+        padding-left: 15px;
+        margin-bottom: 10px;
+    }
+    .item-delivery ul li::before {
+        left: 3px;
+    }
+    .unit-delivery {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .unit-delivery__image {
+        width: 130px;
+        height: 90px;
+        margin-right: 10px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .unit-delivery__title {
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .page-delivery ~ .consultation {
+        padding-bottom: 50px;
+    }
+    .form-page {
+        border-radius: 10px;
+    }
+    .col-lg-6 .item-delivery {
+        min-height: initial;
+        margin-bottom: 20px;
+    }
+    .page-catalog {
+        padding-top: 25px;
+        padding-bottom: 45px;
+    }
+    .item-sidebar__head {
+        font-size: 17px;
+    }
+    .item-sidebar {
+        margin-bottom: 16px;
+    }
+    .sidebar-catalog {
+        padding: 15px;
+        border-radius: 10px;
+        display: none;
+    }
+    .item-sidebar__content {
+        padding: 10px;
+        padding-bottom: 0;
+    }
+    .item-sidebar__subtitle {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .item-sidebar__content ul {
+        padding-bottom: 10px;
+    }
+    .item-sidebar__content ul li {
+        margin-bottom: 7px;
+    }
+    .item-subcategory {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .item-subcategory__image {
+        width: 40px;
+        height: 40px;
+        margin-right: 13px;
+        border-radius: 10px;
+    }
+    .item-catalog__image img, .item-subcategory__image img {
+        border-radius: 10px;
+    }
+    .page-catalog .row_page + .row_page {
+        padding-top: 25px;
+    }
+    .item-catalog {
+        border-radius: 10px;
+    }
+    .item-catalog__image {
+        height: 175px;
+        border-radius: 10px;
+    }
+    .item-catalog__content {
+        padding: 12px;
+        padding-bottom: 18px;
+    }
+    .item-catalog__title {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .item-catalog__bottom {
+        padding-top: 20px;
+    }
+    .link-page {
+        font-size: 14px;
+    }
+    .btn-main_filter {
+        padding: 0 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-main.btn-main_filter:hover {
+        background: #606c38;
+    }
+    .btn-main.btn-main_filter.active {
+        background: #283618;
+    }
+    .descr-modal {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .title-modal {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .modal-block .checkbox {
+        margin-top: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
