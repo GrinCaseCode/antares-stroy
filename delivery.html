@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.2" />
-	<link rel="stylesheet" href="css/media.css?ver=1.2" />
+	<link rel="stylesheet" href="css/main.css?ver=1.7" />
+	<link rel="stylesheet" href="css/media.css?ver=1.7" />
 </head>
 <body>
 
@@ -132,71 +132,145 @@
 		<section class="page-delivery">
 			<div class="container">
 				<h1 class="title-section">Доставка и оплата</h1>
-				<div class="row row_page">
-					<div class="col-lg-8">
-						<div class="item-delivery">
-							<div class="item-delivery__title">Самовывоз</div>
-							<p><strong>Адрес:</strong> г. Ростов-на-Дону, ул. Каширская, 5а (между техцентром "Модус" и ОАО "ГПЗ-10"), на одной территории с ТЭК "Байкал-Сервис"</p>
-							<p><strong>Режим работы:</strong> пн-пт с 8 до 17, перерыв 12:00 - 13:00</p>
-							<div class="item-delivery__subtitle">Пункты самовывоза:</div>
-							<p>г. Ростов-на-Дону, ул. Каширская, 5а (район ОАО "ГПЗ-10"), на одной территории с ТЭК "Байкал-Сервис"</p>
+				<div class="delivery-main">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="delivery-main__content">
+								<div class="title-block">Условия оплаты</div>
+								<ul>
+									<li>Оплата производится по безналичному расчету с НДС</li>
+									<li>Детали уточняйте при оформлении заказа</li>
+								</ul>
+							</div>
+							
 						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-delivery">
-							<div class="item-delivery__title">Условия оплаты</div>
-							<ul>
-								<li>Наличными. Принимаем оплату наличными</li>
-								<li>Безналичный расчет. Оплата производится переводом средств на р/с компании.</li>
-							</ul>
+						<div class="col-lg-6">
+							<img src="img/delivery.jpg" alt="alt">
 						</div>
 					</div>
 				</div>
-				<div class="row ">
-					<div class="col-lg-6">
-						<div class="item-delivery">
-							<div class="item-delivery__title">Доставка автопарком компании</div>
-							<div class="item-delivery__subtitle">
-								<p>Стоимость доставки рассчитывается в зависимости от объема заказа</p>
-								<p>Доставка стройматериалов по городу Ростову-на-Дону и области</p>
+				<h2 class="title-section">Условия доставки</h2>
+				<div class="wrap-map-delivery">
+					<div class="content-delivery">
+						<div class="title-block">Условия оплаты</div>
+						<p><strong>Адрес склада: г. Ростов-на-Дону, ул. Каширская, 5а</strong> <br>(район ОАО "ГПЗ-10"), на одной территории с ТЭК "Байкал-Сервис"</p>
+						<p><strong>Режим работы:</strong> пн-пт 8:00-17:00, перерыв: 12:00-13:00</p>
+						<p><strong>Телефон:</strong> <a href="tel:+79518221892"><strong>+7 (951) 822-18-92</strong></a></p>
+						<div class="content-delivery__bottom">Согласование времени происходит на этапе оформления заказа</div>
+					</div>
+					<div id="map-delivery"></div>
+				</div>
+				<h2 class="title-section">Типы транспорта</h2>
+				<div class="item-transport">
+					<div class="item-transport__image">
+						<img src="img/transport1.jpg" alt="alt">
+					</div>
+					<div class="item-transport__name">Газели</div>
+					<div class="item-transport__descr">Доставляем газелями грузоподъёмностью до 2 т. небольшие партии товара:</div>
+					<div class="item-transport__features columns-3">
+						<div class="feature-transport">Плитка тротуарная</div>
+						<div class="feature-transport">Щебень в мешках</div>
+						<div class="feature-transport">Трубы асбестоцементные</div>
+						<div class="feature-transport">Кирпич</div>
+						<div class="feature-transport">Керамзит в мешках</div>
+						<div class="feature-transport">Шифер волновой и плоский</div>
+						<div class="feature-transport">Песок просеянный в мешках</div>
+						<div class="feature-transport">Цемент</div>
+						<div class="feature-transport">Лотки</div>
+					</div>
+				</div>
+				<div class="item-transport">
+					<div class="item-transport__image">
+						<img src="img/transport2.jpg" alt="alt">
+					</div>
+					<div class="item-transport__name">самосвалы камаз</div>
+					<div class="item-transport__descr">Доставляем на строительные объекты:</div>
+					<div class="item-transport__features">
+						<div class="feature-transport">Песок</div>
+						<div class="feature-transport">Керамзит</div>
+						<div class="feature-transport">Щебень</div>
+						<div class="feature-transport">Кирпич и др.</div>
+					</div>
+				</div>
+				<div class="item-transport">
+					<div class="item-transport__image">
+						<img src="img/transport3.jpg" alt="alt">
+					</div>
+					<div class="item-transport__name">манипуляторы</div>
+					<div class="item-transport__descr">Манипуляторами грузоподъемностью 5 или 10 т доставляем товары:</div>
+					<div class="item-transport__features">
+						<div class="feature-transport">Блоки</div>
+						<div class="feature-transport">Плитку тротуарную</div>
+						<div class="feature-transport">Бордюр</div>
+						<div class="feature-transport">Кирпич</div>
+						<div class="feature-transport">Поребрик и т.д.</div>
+					</div>
+				</div>
+				<div class="item-transport">
+					<div class="item-transport__image">
+						<img src="img/transport4.jpg" alt="alt">
+					</div>
+					<div class="item-transport__name">большегрузные самосвалы <span>(тонары)</span></div>
+					<div class="item-transport__descr">Поставляем большегрузными машинами грузоподъемностью <br>от 20 до 40 т товары:</div>
+					<div class="item-transport__features">
+						<div class="feature-transport">Песок</div>
+						<div class="feature-transport">Щебень</div>
+						<div class="feature-transport">Отсев</div>
+						<div class="feature-transport">Керамзит</div>
+						<div class="feature-transport">Мраморную крошку</div>
+						<div class="feature-transport">Кирпич и т.п.</div>
+					</div>
+				</div>
+				<div class="item-transport">
+					<div class="item-transport__image">
+						<img src="img/transport5.jpg" alt="alt">
+					</div>
+					<div class="item-transport__name">бортовые машины</div>
+					<div class="item-transport__descr">Бортовыми машинами грузоподъемностью <br>от 20 до 40 т доставляем:</div>
+					<div class="item-transport__features item-transport__features_last">
+						<div class="feature-transport">Кирпич</div>
+						<div class="feature-transport">Плитку тротуарную</div>
+						<div class="feature-transport">Шифер</div>
+						<div class="feature-transport">Трубы асбестоцементные и др</div>
+					</div>
+				</div>
+				<h2 class="title-section">Доставка транспортными компаниями</h2>
+				<div class="delivery-main delivery-main_page">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="delivery-main__content">
+								<div class="title-small">Отправляем небольшие партии грузов через ТЭК:</div>
+								<ul>
+									<li>Байкал Сервис</li>
+									<li>ПЭК</li>
+									<li>Деловые Линии и др.</li>
+								</ul>
 							</div>
 						</div>
-						<div class="item-delivery">
-							<div class="item-delivery__title">Доставка транспортной компанией</div>
-							<ul>
-								<li>Отправляем заказы по всей России, ЛНР и ДНР. </li>
-								<li>Работаем со всеми транспортными компаниями.</li>
-								<li>Стоимость доставки рассчитывается индивидуально при совершении заказа.</li>
-							</ul>
+						<div class="col-lg-6">
+							<img src="img/delivery_main1.jpg" alt="alt">
 						</div>
 					</div>
-					<div class="col-lg-6">
-						<div class="unit-delivery">
-							<div class="unit-delivery__image">
-								<img src="img/unit_delivery1.jpg" alt="alt">
-							</div>
-							<div class="unit-delivery__content">
-								<div class="unit-delivery__title">Газель</div>
-								<p>При отгрузке небольших партий товара доставку осуществляем газелями, грузоподъемностью до 2 т. Разгрузка производится силами заказчика.</p>
+				</div>
+				<div class="delivery-main delivery-main_page">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="delivery-main__content">
+								<div class="title-small">Железнодорожным транспортом поставляем:</div>
+								<ul>
+									<li>Шебень</li>
+									<li>Песок</li>
+									<li>Песчано-гравийную смесь</li>
+									<li>Керамзит </li>
+									<li>Плитку тротуарную</li>
+									<li>Бордюры и поребрики</li>
+									<li>Кирпич</li>
+									<li>Цемент и др. стройматериалы</li>
+								</ul>
 							</div>
 						</div>
-						<div class="unit-delivery">
-							<div class="unit-delivery__image">
-								<img src="img/unit_delivery2.jpg" alt="alt">
-							</div>
-							<div class="unit-delivery__content">
-								<div class="unit-delivery__title">Самосвалы КАМАЗ</div>
-								<p>Доставляем на строительные объекты песок, щебень, керамзит, кирпич и др.</p>
-							</div>
-						</div>
-						<div class="unit-delivery">
-							<div class="unit-delivery__image">
-								<img src="img/unit_delivery3.jpg" alt="alt">
-							</div>
-							<div class="unit-delivery__content">
-								<div class="unit-delivery__title">Манипуляторы</div>
-								<p>Манипуляторами, грузоподъемностью 5 или 10 т производим доставки кирпич, блоки, плитку тротуарную, бордюр, поребрик и т.д.</p>
-							</div>
+						<div class="col-lg-6">
+							<img src="img/delivery_main2.jpg" alt="alt">
 						</div>
 					</div>
 				</div>
@@ -205,7 +279,6 @@
 
 		<section class="consultation consultation_about">
 			<div class="container">
-				<div class="title-middle">С ООО ПКП «АНТАРЕС» строить — это просто, удобно и выгодно!</div>
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="consultation__block">
@@ -393,7 +466,46 @@
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/mask/jquery.maskedinput.js"></script>
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-	<script src="js/common.js?ver=1.2"></script>
+	<script src="js/common.js?ver=1.7"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+	<script>
+	$(document).ready(function() {
+		ymaps.ready(init);
+
+		function init() {
+			var initialCenter = [47.197189, 39.612856];
+			var mobileCenter = [47.196809, 39.616504];
+			var center = $(window).width() < 992 ? mobileCenter : initialCenter;
+
+			var myMap = new ymaps.Map('map-delivery', {
+				center: center,
+				zoom: 16
+			}, {
+				searchControlProvider: 'yandex#search'
+			});     
+
+			myPlacemark = new ymaps.Placemark([47.196809, 39.616504], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [46, 46],
+				iconImageOffset: [-23, -46],
+				balloonOffset: [ 0, -46 ]
+			});
+
+			myMap.controls.remove('searchControl');
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark);
+
+			$(window).resize(function() {
+				var newCenter = $(window).width() < 992 ? mobileCenter : initialCenter;
+				myMap.setCenter(newCenter);
+			});
+		}
+	});
+	
+	</script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
