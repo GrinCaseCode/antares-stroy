@@ -142,6 +142,51 @@ $(".btn-main_filter").click(function(e) {
 		]
 	});
 
+	$('.slider-for').slick({
+		arrows: false,
+		dots: false,
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.slider-nav',
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	});
+
+	$('.slider-nav').slick({
+		arrows: false,
+		dots: false,
+		vertical: true,
+		verticalSwiping: true,
+		infinite: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		asNavFor: '.slider-for',
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					vertical: false,
+				verticalSwiping: false,
+				}
+			}
+		]
+	});
+
+	$('.tabs-page a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().siblings("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().siblings().find(".tab-pane-page").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	}); 
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 	{
