@@ -1011,7 +1011,7 @@
     .item-transport__name {
         font-size: 20px;
         width: auto;
-        flex: 1;
+        flex: 1; 
     }
     .item-transport__descr {
         width: 100%;

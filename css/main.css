@@ -2105,7 +2105,7 @@ form {
 	color: #2b2a29;
 }
 .contacts-block strong {
-	font-weight: 500;
+	font-weight: 500; 
 	display: block;
 }
 .contacts-block .btn-main {
